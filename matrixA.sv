@@ -10,7 +10,7 @@ module matrixA #(
     logic [31:0] mem [15:0];
 
     initial begin
-        $readmemh("C:/Users/Dell/dan/intelFPGA_lite/18.1/project/24_fall/gemm/dmatrixA.txt", mem);
+        $readmemh("dmatrixA.txt", mem);
     end
 
     logic [31:0] block0 [3:0];
